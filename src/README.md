@@ -25,6 +25,15 @@ Uma aplicação FastAPI super simples que permite que estudantes visualizem e se
    - Documentação da API: http://localhost:8000/docs
    - Documentação alternativa: http://localhost:8000/redoc
 
+## Testes
+
+Na raiz do projeto, instale as dependências e execute os testes:
+
+```bash
+python -m pip install -r requirements.txt
+python -m pytest
+```
+
 ## Endpoints da API
 
 | Método | Endpoint                                                          | Descrição                                                                   |
